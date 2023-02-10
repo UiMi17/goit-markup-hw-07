@@ -5,13 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <!-- Normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
     <!-- Styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -364,8 +359,8 @@
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-social-link link"
-                ><svg class="icon-social" width="20" height="20">
+                class="footer-social-link"
+                ><svg class="social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -375,8 +370,8 @@
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-social-link link"
-                ><svg class="icon-social" width="20" height="20">
+                class="footer-social-link"
+                ><svg class="social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -387,7 +382,7 @@
                 target="_blank"
                 rel="noreferrer noopener"
                 class="footer-social-link link"
-                ><svg class="icon-social" width="20" height="20">
+                ><svg class="social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -398,13 +393,32 @@
                 target="_blank"
                 rel="noreferrer noopener"
                 class="footer-social-link link"
-                ><svg class="icon-social" width="20" height="20">
+                ><svg class="social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
               <!-- </li>  Aria label was here :0 -->
             </li>
           </ul>
+        </div>
+        <div class="form-wrapper">
+          <h3 class="form-title">Підпишіться на розсилку</h3>
+          <form class="footer-form">
+            <label class="footer-form-label">
+            <input
+              class="footer-form-input"
+              name="mail"
+              type="email"
+              placeholder="E-mail"
+            />
+          </label>
+            <button class="footer-form-btn" type="submit">
+              Підписатися
+              <svg class="icon-footer-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
